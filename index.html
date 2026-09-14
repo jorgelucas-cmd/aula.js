@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Jokenpô</title>
+
+</head>
+<body>
+
+    <div class="container">
+    
+        <h1>Jokenpô</h1>
+
+    <div class="buttons">
+            <button id="rock" onclick="playHumen('rock')">&#x1F44A</button>
+            <button id="paper" onclick="playHumen('paper')">&#x1F590;</button>
+            <button id="scissors" onclick="playHumen('scissors')">&#x270C;</button>
+    </div>
+        <p class="result"></p>
+        <P class="score">Sua pontuação: <span id="human-score">0</span></P>
+        <p class="machine-score">Pontuação da máquina: <span id="machine-score">0</span></p>
+
+    </div>
+    
+    <form class="formulario">
+         <h2>Parabéns! Você ganhou!</h2>
+         <h3>Vem de novo essa vez eu ganho</h3>
+         <img class="img-form-win" src="https://i.pinimg.com/736x/97/57/14/97571461e0ea30e5d86cf30127b9b0de.jpg" alt="teste">
+         <button id="meuBotao" class="tenta denovo" onclick="esconderform()">Vamos não tenho medo </button>
+
+    </form>
+
+    <script src="./seila.js"></script>
+</body>
+
+</html>

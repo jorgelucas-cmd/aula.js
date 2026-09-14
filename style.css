@@ -1,0 +1,135 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body {
+    background: url("https://i.pinimg.com/736x/72/0c/d8/720cd80b0e47d462003a6e9e3fd1939b.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    padding: 20px;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    min-height: 50vh;
+    min-width: 0vw;
+}
+
+.buttons {
+    margin: 30px 0 ;
+    display: flex;
+    gap:40px;
+
+}
+
+button {
+    padding: 10px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    transition: opacity 0.5s ease-in-out;
+   
+    
+
+}
+
+button:hover {
+    opacity: 0.10;
+    border: 2px solid #f291da;
+
+    
+
+    
+   
+
+}
+
+#rock {
+    background: url("https://i.pinimg.com/736x/72/0c/d8/720cd80b0e47d462003a6e9e3fd1939b.jpg");
+    background-size: cover;
+}
+
+#paper {
+    background: url("https://i.pinimg.com/736x/72/0c/d8/720cd80b0e47d462003a6e9e3fd1939b.jpg");
+    background-size: cover;
+
+}
+
+#scissors {
+    background: url("https://i.pinimg.com/736x/72/0c/d8/720cd80b0e47d462003a6e9e3fd1939b.jpg");
+    background-size: cover;
+}
+
+p {
+    font-weight: bold;
+    margin-bottom: 10px;
+    
+}
+
+.score span{
+    color: hwb(237 32% 0%);
+}
+
+.machine-score span {
+    color: rgb(255, 121, 109);
+}
+
+form {
+    background-color: #ffffff;
+    position: fixed;
+    top:10%;
+    left: -750px;
+
+    /* 
+    left: 50%;
+    transform: translateX(-50%);  
+    */
+    
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 3px;
+    width: 450px;
+    height: 400px;
+    z-index: 1;
+    transition: 0.5s left ease-in-out;
+}
+
+
+
+
+#meuBotao {
+    background-color: hsl(0, 100%, 50%);
+    color: white;
+}
+
+h2 {
+    color: #080808;
+    font-size: 50px;
+}
+
+h3 {
+    color: #020202
+}
+
+.img-form-win {
+    width: 40%;
+    position: relative;
+    left: 5%;
+    top: -10%;
+
+}
